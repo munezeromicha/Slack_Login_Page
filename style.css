@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,700;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+}
+body {
+    max-height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container #wall-paper{
+    width: 60%;
+    max-height: 100vh;
+}
+.form-1{
+    margin-top: -3%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 40%;
+}
+.form-1 .third-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+}
+.form-1 .third-1 img {
+    max-width: 72px;
+    max-height: 72px;
+}
+.third-1 h1{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #525252;
+}
+.third-1 p{
+    color: #525252;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.third-1 button{
+    display: flex;
+    width: 420px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #828282;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #E8E8E8;
+}
+.third-1 button img{
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+}
+.email-1{
+    display: flex;
+    justify-content: center;
+    color: #A1A1A1;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.form-1 form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px 0;
+    gap: 20px;
+}
+.form-1 form p{
+    display: flex;
+    justify-content: center;
+}
+form .field-1{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+form .field-1 label{
+    color: var(--Gray-3, #828282);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+form .field-1 input{
+    display: flex;
+    width: 420px;
+    padding: 13px 10px;
+    align-items: center;
+    gap: 13px;
+    border-radius: 5px;
+    border: 1px solid #DED2D9;
+}
+.field-1 input:focus{
+    outline: none;
+}
+input[type="checkbox"]{
+    accent-color: #7F265B;
+}
+.check-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+form button{
+    display: flex;
+    width: 100%;
+    padding: 13px 10px 12px 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    background: #7F265B;
+}
+a{
+    text-decoration: none;
+    color: #7F265B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.label-3{
+    margin-top: -1%;
+    margin-left: -35%;
+    color: #828282;
+}
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    .third-1 h1{
+        font-size: 24px;
+    }
+    .container #wall-paper{
+        display: none;
+    }
+    .form-1{
+        padding: 0 20px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    form .field-1 input{
+        width: 100%;
+    }
+    .third-1 button{
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .container #wall-paper{
+        display: none;
+    }
+}

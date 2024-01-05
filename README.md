@@ -1,3 +1,3 @@
-# Login Page Design
+# Slack Login Page
 
-### Live preview: https://heisjabo.github.io/slack-login-page/
+### Live preview: 
